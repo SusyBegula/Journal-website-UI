@@ -1,0 +1,69 @@
+body {
+    background-color: #181818;
+    margin: 0;
+}
+
+.notebook {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 40px auto;
+    /* width: 80%; */
+    height: 830px;
+     max-width: 600px;
+    /* max-height: 1000px; */
+    border-radius: 20px;
+    overflow: auto;
+    box-shadow: 0 0 50px 1px #d3d3d3;
+
+}
+
+.date{
+    position: absolute;
+    font-family: 'Marck Script', cursive;
+    font-size: 23px;
+    top: 1%;
+    right: 4%;
+}
+
+.date input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    width: 120px;
+    text-align: right;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+}
+
+.punchholes {
+    /* position: relative; */
+    margin-left: 15px;
+    /* width: auto; */
+    /* height: fit-content;
+    width: fit-content; */
+}
+
+.punchholes div {
+    margin: 20px 0px;
+    background-color: #181818;
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+}
+
+textarea {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    background: url(images/row.png) repeat;
+    font-family: 'Marck Script', cursive;
+    font-size: 27px;
+    background-color: transparent;
+    resize: none;
+    margin-left: 12px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    /* width: calc(100% - 47px); */
+}
